@@ -1,0 +1,27 @@
+
+#mainInfo{
+    text-align: center;
+    font-family: "press Start 2P";
+    border-style: ridge;
+    border-width: 10px;
+    height:300px;
+    width: 1000px;
+    border-color:  #79553D;
+    background-color: #BC987E;
+}
+
+#text{
+    text-align: center;
+    font-family:"press Start 2P";
+}
+
+#socialmedia{
+    text-align: center;
+    width: 100%;
+    padding: 3px 10px;
+    float: left;
+}
+
+body{
+    background-color: gray;
+}
