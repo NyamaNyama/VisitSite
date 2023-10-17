@@ -12,7 +12,7 @@
 
 #text{
     text-align: center;
-    font-family:"press Start 2P";
+    
 }
 
 #socialmedia{
@@ -23,5 +23,22 @@
 }
 
 body{
-    background-color: gray;
+    background-color:gray;
 }
+
+#switcher{
+    background-color: transparent;
+    background-repeat: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-family: inherit;
+    font-size: 35px;
+    color: red;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: bold;
+    
+}
+
