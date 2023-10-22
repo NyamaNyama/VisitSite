@@ -8,6 +8,7 @@
     width: 1000px;
     border-color:  #79553D;
     background-color: #BC987E;
+   
 }
 
 #text{
@@ -16,16 +17,18 @@
 }
 
 #socialmedia{
-    text-align: center;
+    
     width: 100%;
+    
     padding: 3px 10px;
     float: left;
 }
 
 body{
-    background-color:gray;
+    background-color: grey;
+    background-image: url('backgrounds/Background.png');
+    background-size: cover;
 }
-
 #switcher{
     background-color: transparent;
     background-repeat: none;
@@ -39,7 +42,13 @@ body{
     padding-left: 0px;
     padding-right: 0px;
     font-weight: bold;
+    position: relative;
     
-    
+}
+
+
+.description{
+    text-decoration: underline ;
+    text-decoration-color: #79553D;
 }
 
