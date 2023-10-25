@@ -2,19 +2,27 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href = "Static/style.css">
-        <link rel="stylesheet" href = "Static//font.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href = "Static/CSS/style.css">
+        <link rel="stylesheet" href = "Static/CSS/font.css">
         
         
         <title>ITxON</title>
     </head>
 
     <body>
-        <script src="Static/index.js"></script>
         
-            <div id="mainInfo" style="width:850px; margin:auto; height: 330px;">
+        <script src="Static/JavaScript/index.js"></script>
+         <div id="overlay"></div>
+         <div class="dark">
+            <div id="mainInfo" >
             
-                <h1 id="Name" >IT<button id="switcher" onclick="clickText() ">x</button><span id="On">ON</span></h1>
+                
+                <div class="company">
+                       <h1 id="Name">
+                        <button id="switcher" onclick="clickText()">x</button><div id="it">IT</div ><div id="On">OFF</div>
+                       </h1> 
+                </div>
                 <br>
                 <br>
                 <h1 class="description">Тихон Шкарин</h1>
@@ -25,19 +33,16 @@
                 <div >
                     <ul id="socialmedia">
                         
-                            <a href="https://steamcommunity.com/profiles/76561198421809668/"><img src="Static/icons/8547091_steam_icon.png" height="50"title="Мой стим"></a>
-                            <a href="https://t.me/mechanichater"><img src="Static/icons/7693324_telegram_social media_logo_messenger_icon.png" height="50" title="Мой телеграм"></a>
-                            <a href="https://github.com/NyamaNyama"><img src="Static/icons/211904_social_github_icon.png" height="53" title="Мой гитхаб"></a>
-                            <a href="https://www.youtube.com/watch?v=ekFLaTC0D5c"> <img src="Static/icons/211929_social_youtube_icon.png" height="50" title="Мой канал на ютубе"></a>
+                            <a href="https://steamcommunity.com/profiles/76561198421809668/"><img src="Static/images/icons/8547091_steam_icon.png" height="50"title="Мой стим"></a>
+                            <a href="https://t.me/mechanichater"><img src="Static/images/icons/7693324_telegram_social media_logo_messenger_icon.png" height="50" title="Мой телеграм"></a>
+                            <a href="https://github.com/NyamaNyama"><img src="Static/images/icons/211904_social_github_icon.png" height="53" title="Мой гитхаб"></a>
+                            <a href="https://www.youtube.com/watch?v=ekFLaTC0D5c"> <img src="Static/images/icons/211929_social_youtube_icon.png" height="50" title="Мой канал на ютубе"></a>
                         
                            
                         
                     </ul>
                 </div>
             </div>
-
-        
-        
-        
+         </div>
     </body>
 </html>
