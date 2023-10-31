@@ -1,4 +1,14 @@
 var click=false;
+
+
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+
 function clickText(){
     if(click){
         var dark = document.getElementById("overlay");
